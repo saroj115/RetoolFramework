@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests"> <!-- use parallel ="tests" to execute to execute in parallel-->
+    <listeners>
+        <listener class-name="Listeners"></listener>
+    </listeners>
+    <test name="bookAReturn" >
+        <classes>
+            <class name="bookAReturn"></class>
+
+        </classes>
+        </test>
+    <test name="Homepage">
+        <classes>
+            <class name="HomePage"></class>
+        </classes>
+    </test>
+</suite>

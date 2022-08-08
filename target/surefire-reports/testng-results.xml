@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-26T13:15:46 AEST" name="All Test Suite" finished-at="2022-06-26T13:16:11 AEST" duration-ms="24563">
+    <groups>
+    </groups>
+    <test started-at="2022-06-26T13:15:46 AEST" name="/Users/sarojthapa/Documents/Intellij projects/RetoolFramework/src/test" finished-at="2022-06-26T13:16:11 AEST" duration-ms="24563">
+      <class name="HomePage">
+        <test-method is-config="true" signature="openZip()[pri:0, instance:HomePage@68f4865]" started-at="2022-06-26T13:15:46 AEST" name="openZip" finished-at="2022-06-26T13:15:49 AEST" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openZip -->
+        <test-method signature="loginInout(java.lang.String,java.lang.String)[pri:0, instance:HomePage@68f4865]" started-at="2022-06-26T13:16:03 AEST" name="loginInout" data-provider="getData" finished-at="2022-06-26T13:16:10 AEST" duration-ms="7411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gourab.saha@parcelpoint.com.au]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fQaxa25SgTvJguF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:HomePage@68f4865]" started-at="2022-06-26T13:16:10 AEST" name="teardown" finished-at="2022-06-26T13:16:11 AEST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- HomePage -->
+      <class name="bookAReturn">
+        <test-method is-config="true" signature="openZip()[pri:0, instance:bookAReturn@f99f5e0]" started-at="2022-06-26T13:15:49 AEST" name="openZip" finished-at="2022-06-26T13:15:52 AEST" duration-ms="2977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openZip -->
+        <test-method signature="bookAReturnParcel()[pri:0, instance:bookAReturn@f99f5e0]" started-at="2022-06-26T13:15:52 AEST" name="bookAReturnParcel" finished-at="2022-06-26T13:16:03 AEST" duration-ms="10940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAReturnParcel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:bookAReturn@f99f5e0]" started-at="2022-06-26T13:16:11 AEST" name="teardown" finished-at="2022-06-26T13:16:11 AEST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bookAReturn -->
+    </test> <!-- /Users/sarojthapa/Documents/Intellij projects/RetoolFramework/src/test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
